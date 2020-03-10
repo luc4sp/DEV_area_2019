@@ -1,0 +1,19 @@
+.loading {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: auto;
+    background-image: url("../PageAssets/loginBackground.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    justify-content: center;
+    place-items: center;
+}
+
+.loading > h2 {
+    font-family: "Montserrat Light";
+    color: white;
+}

@@ -1,0 +1,68 @@
+.Bar-Container {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    justify-content: space-between;
+}
+
+
+.Left-Buttons {
+    display: flex;
+    margin: 13px;
+}
+
+.Left-Buttons > img {
+    height: 35px;
+    width: auto;
+    transition: 0.1s;
+    cursor: pointer;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+
+.Left-Buttons > img:hover {
+    transform: scale(0.97);
+    transition: 0.1s;
+}
+
+.Text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: MontSerrat;
+    position: relative;
+    text-decoration: none;
+}
+
+.Text:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: orange;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.green {
+    color: seagreen;
+}
+
+.orange {
+    color: orange;
+}
+
+.Text:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}

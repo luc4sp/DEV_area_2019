@@ -1,0 +1,11 @@
+.MainContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-image: url("../PageAssets/loginBackground.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: auto;
+}

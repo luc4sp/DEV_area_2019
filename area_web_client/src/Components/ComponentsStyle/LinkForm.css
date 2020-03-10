@@ -1,0 +1,11 @@
+.LinkForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    place-items: center;
+
+    height: 80%;
+    width: 100%;
+
+    color: white;
+}

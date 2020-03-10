@@ -1,0 +1,24 @@
+.trello-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    place-items: center;
+
+    height: 80%;
+    width: 100%;
+}
+
+.trello-form > label {
+    margin-top: 30px;
+    color: white;
+    font-family: "Montserrat Light";
+    font-size: 25px;
+}
+
+.trello-form > input {
+    margin-top: 10px;
+    width: 90%;
+    height: 30px;
+    font-size: 15px;
+    font-family: "Montserrat Light";
+}

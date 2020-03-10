@@ -1,0 +1,51 @@
+.github-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    place-items: center;
+
+    height: 80%;
+    width: 100%;
+}
+
+.github-form > label {
+    margin-top: 30px;
+    color: white;
+    font-family: "Montserrat Light";
+    font-size: 25px;
+}
+
+.github-form > input {
+    margin-top: 10px;
+    width: 90%;
+    height: 30px;
+    font-size: 15px;
+    font-family: "Montserrat Light";
+}
+
+.github-form > button {
+    margin-top: 10px;
+    height: 27px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.switch-container {
+    margin-top: 10px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    place-items: center;
+}
+.switch-container > label {
+    color: white;
+    font-family: "Montserrat Light";
+    font-size: 15px;
+}
+
+.select {
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+    color: black;
+}

@@ -1,0 +1,34 @@
+version: "3"
+services: 
+    web:
+        container_name: client_web
+        build: 
+            context: "./area_web_client"
+            dockerfile: Dockerfile
+        ports: 
+            - "3000:3000"
+
+    server:
+        container_name: server
+        build: 
+            context: "./area_back"
+            dockerfile: Dockerfile
+        ports: 
+          - '8080:8080'
+        links:
+          - postgres
+          
+    postgres:
+        image: postgres:11
+        ports:
+          - "5432:5432"
+        volumes:
+          - db-data:/var/lib/postgresql/data
+        environment:
+          - POSTGRES_USER=postgres
+          - POSTGRES_PASSWORD=123456
+          - POSTGRES_DB=area_db
+        restart: always
+    
+volumes:
+  db-data:

@@ -1,0 +1,5 @@
+export const APP_CONFIG = {
+  secretKey:
+    'SnmrGbQPQCqJmeplfdbQ5Qn7Vph3AukGn8tux59BlEmaxgQI1fUvZ6MWFZUS8WNCACGyzXOJByPWxWBwr9sTR3OTtO9IzMAFTBmLASHEcI0bvuisMTeIKs/HPEy84/H7IBrRSS23dTPWq6biqOjzQASDkyD4Xg+kyR6R8/0P3thsyk47uBuH8Hevthp6tFwh/VPpZzBgfOK2aNyt1PuuJi3CtTQQHKoUPlGOGw==',
+  expiresIn: 604800,
+};

@@ -1,0 +1,144 @@
+.second-modal-wrapper {
+    transition: all .8s;
+    position: fixed;
+    width: 1300px;
+    left: 17%;
+    top: 7%;
+    z-index: 10;
+}
+
+iframe {
+    border: none;
+}
+
+.modal-footer {
+    height: 25px;
+    padding: 10px;
+    bottom: 0;
+}
+
+.close-modal-btn:hover {
+    color: black;
+}
+
+.btn-cancel {
+    background-color: #b71c1c;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px rgb(34, 34, 34);
+    border-radius: 5px;
+    margin-left: 47%;
+    outline: none;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-cancel:hover {
+    cursor: pointer;
+}
+
+.back-drop {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 135%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    transition: all 1.3s;
+    width: 110%;
+}
+
+.second-modal-panel {
+    border-radius: 3px;
+    width: 100%;
+    transition: all .8s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    place-items: center;
+}
+
+.apis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 30%;
+}
+
+.services {
+    transition: 0.2s;
+    cursor: pointer;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.focusGreen {
+    background-color: rgba(46, 139, 86, 0.555);
+}
+
+.services:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.actions > label {
+    height: 10%;
+    font-size: 50px;
+    font-family: "Montserrat Light";
+    color: white;
+}
+
+.connectButton {
+    background-color: seagreen;
+    color: white;
+    font-family: "Montserrat Light";
+    font-size: 23px;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 30px;
+    width: 500px;
+}
+
+.connectButton:active {
+    transform: scale(0.98);
+}
+
+.drops {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-around;
+    place-items: center;
+}
+
+.dropdown {
+    width: 100%;
+}
+
+.top-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 35%;
+    height: 100%;
+}
+
+.top-label > label {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: seagreen;
+    font-family: "Montserrat Light";
+    font-size: 30px;
+}

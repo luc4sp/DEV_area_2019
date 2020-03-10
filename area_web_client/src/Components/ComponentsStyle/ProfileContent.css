@@ -1,0 +1,22 @@
+.ProfileContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.ProfileContent > h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.ProfileContent > img {
+    height: 30%;
+    border: 5px solid seagreen;
+}
+
+var {
+    color: seagreen;
+}

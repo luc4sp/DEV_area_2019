@@ -1,0 +1,109 @@
+{
+    " client ": {
+        " host ": "lucaspoirel.ovh"
+        },
+        " server ": {
+        " current_time ": 1531680780 ,
+        " services ": [{
+            " name ": " github " ,
+            " actions ": [{
+                " name ": " New stars on repository " ,
+                " description ": " A new star is posted in the repository "
+            }, {
+                " name ": " New open_issues on specified repository " ,
+                " description ": " A new open issue is posted on specified repository "
+            }, {
+                " name ": " New Forks on specified repository " ,
+                " description ": " New Forks on specified repository "
+            }, {
+                " name ": " New Subscribers fork on a repository " ,
+                " description ": " New Subscribers fork on a repository "
+            }],
+            " reactions ": [{
+                " name ": " Put a stars on a repository " ,
+                " description ": " Put a stars on a repository "
+            }, {
+                " name ": " Delete a stars on a repository " ,
+                " description ": " Delete a stars on a repository "
+            }, {
+                " name ": " Watch a repository " ,
+                " description ": " Watch a repository "
+            }, {
+                " name ": " Delete a Watch on a repository " ,
+                " description ": " Delete a Watch on a repository "
+            }, {
+                " name ": " Create a project " ,
+                " description ": " Create a project "
+            }, {
+                " name ": " Delete a project " ,
+                " description ": " Delete a project "
+            }, {
+                " name ": " Create a repository " ,
+                " description ": " Create a repository "
+            }, {
+                " name ": " Delete a repository " ,
+                " description ": " Delete a repository "
+            }, {
+                " name ": " Create a fork " ,
+                " description ": " Create a fork "
+            }]
+        }, {
+            " name ": " slack " ,
+            " actions ": [{
+                " name ": " Check new conversation " ,
+                " description ": " Check a new conversation "
+            }] ,
+        " reactions ": [{
+            " name ": " Create a conversation " ,
+            " description ": " Create a conversation "
+            }]
+        }, {
+            " name ": " spotify " ,
+            " actions ": [{
+                " name ": " New Follower on artist " ,
+                " description ": " New Follower on artist "
+            }, {
+                " name ": " New Follower on Me " ,
+                " description ": " New Follower on Me "
+            }] ,
+        " reactions ": [{
+            " name ": " Follow a User " ,
+            " description ": " Follow a User "
+            }] 
+        }, {
+            " name ": " trello " ,
+            " actions ": [{
+                " name ": " New Board " ,
+                " description ": " New Board "
+            }, {
+                " name ": " New Card " ,
+                " description ": " New Card "
+            }, {
+                " name ": " New reaction " ,
+                " description ": " New reaction "
+            }, {
+                " name ": " New list " ,
+                " description ": " New list "
+            }] ,
+            " reactions ": [{
+                " name ": " Create a board " ,
+                " description ": " Create a board "
+            }, {
+                " name ": " Create a Card " ,
+                " description ": " Create a Card "
+            }, {
+                " name ": " Post a reaction " ,
+                " description ": " Post a reaction "
+            }, {
+                " name ": " Create a new list " ,
+                " description ": " Create a new list "
+            }]
+        }, {
+            " name ": " world-times-api " ,
+            " actions ": [{
+                " name ": " Daily alarm " ,
+                " description ": " Daily alarm "
+            }]
+        }]
+    }
+}

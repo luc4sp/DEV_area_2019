@@ -1,0 +1,49 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: AREA API.
+  description: Documentation for all api calls in the project AREA
+servers:
+  - url: http://guillemlithaud.ovh:8080
+tags:
+  - name: world-times-api
+    description: All usable call for the world-times-api.
+
+paths:
+  /world-times-api/GetAllTimezone:
+    get:
+      description: Get all the timezone and return in JSON
+      tags:
+        - world-times-api
+      responses:
+        '200':
+          description: A JSON object containing all the timezone
+        '401':
+          description: Unauthorized
+
+  /world-times-api/GetHourFromTimezone:
+    get:
+      description: Get all the data for a selected Timezone
+      tags:
+        - world-times-api
+      parameters:
+        - in: query
+          name: timezone
+          schema:
+            type: object
+          required: true
+          description: The selected timezone
+      responses:
+        '200':
+          description: return data about the selected timezone
+
+components:
+  securitySchemes:
+    API_KEY:
+      type: apiKey
+      name: Authorization
+      in: header
+    OAUTH:
+      type: apiKey
+      name: OAUTH_LOG
+      in: header
